@@ -1,9 +1,9 @@
-variable project_id {
-    default = "{{ project_id }}"
+variable project_id {}
+variable region {}
+variable zone {}
+variable network_name {
+    default = "vpc-name"
 }
-variable region {
-    default = "{{ region }}"
-}
-variable zone {
-    default = "{{ zone }}"
+variable bucket_name {
+    default = "tf-quicklab-0001af"
 }
